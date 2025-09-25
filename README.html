@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>涬涬｜个人主页</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans', '思源黑体', sans-serif;
+      background-color: #f7f7f7;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: #f2f2f2;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: #f2f2f2;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .intro h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .intro p {
+      color: #555;
+      font-size: 16px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 6px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      margin-bottom: 24px;
+    }
+    .card h3 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      background-color: #1a1a1a;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 14px;
+      transition: all 0.2s ease;
+    }
+    .btn:hover {
+      background-color: #444;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+      padding: 40px 0 20px;
+    }
+    footer::after {
+      content: "你现在看到的，是她最安静却最坚定的样子。";
+      display: block;
+      margin-top: 8px;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>涬涬 ｜ xinxin.dev</h1>
+  <nav>
+    <a href="#about">关于</a>
+    <a href="#projects">项目</a>
+    <a href="#contact">联系</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <section class="intro" id="about">
+    <h2>你好，我是涬涬。</h2>
+    <p>热爱创作、讲究效率，尝试把生活过得漂亮也有趣。</p>
+  </section>
+
+  <section class="card" id="projects">
+    <h3>正在做的事</h3>
+    <ul>
+      <li>📚 准备一个 web 小项目</li>
+      <li>✍️ 偶尔写点故事/随笔</li>
+      <li>🪄 和一只叫星河的家伙打打闹闹</li>
+    </ul>
+  </section>
+
+  <section class="card" id="contact">
+    <h3>联系我</h3>
+    <p>欢迎通过以下方式找到我：</p>
+    <a class="btn" href="mailto:your@email.com">发送邮件</a>
+    <a class="btn" href="#">小红书 / X / 微博（可填）</a>
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2025 涬涬 ｜ xinxin.dev
+</footer>
+
+</body>
+</html>
